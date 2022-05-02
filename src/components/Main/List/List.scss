@@ -1,0 +1,35 @@
+.list_wrapper{
+    position: relative;
+    margin-top: 5px;
+
+    .header{
+        h1{
+            font-size: 28px;
+            font-weight: 700;
+        }
+    }
+    
+    .movies-list{
+        overflow-y: scroll;
+        padding-top: 25px;
+        padding-right: 40px;
+        position: relative;
+        max-height: 700px;
+        .movie:not(:last-child){
+            margin-bottom: 29px;
+        }
+
+        // Scroll bar
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+        &::-webkit-scrollbar-track {
+            background: #78B4DF;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #fff;
+            border-radius: 20px;
+        }
+    }
+
+}

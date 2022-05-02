@@ -1,0 +1,38 @@
+header.header_wrapper{
+    display: flex;
+    width: 100%;
+    .container{
+        width: 100%;
+        justify-content: space-between;
+        padding: 39px 25px;
+        max-width: 1700px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        .logo{
+
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &_icon{
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 27px;
+                .line{
+                    background: #fff;
+                    width: 46.21px;
+                    height: 4px;
+                    border-radius: 5px;
+                    &:last-child{
+                        width: 19.26px;
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+    }
+}
