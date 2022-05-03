@@ -40,24 +40,16 @@
 // Responsive 1024px
 @media (max-width: 1024px){
     .list_wrapper{
-        background: rgba( #78B4DF, .4);
-        border: 1px solid #91c6ec94;
-        border-radius: 5px;
-        padding: 22px;
-        backdrop-filter: blur(8px);
-        position: absolute;
-        right: 0;
-        margin-right: -170px;
-        transition: margin-right .2s ease 0s;
-        &:hover{
-            margin-right: 0;
+        .movies-list{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            overflow: visible;
+            .movie{
+                &:not(:last-child){
+                    margin-right: 25px;
+                }
+            }
         }
-    }
-}
-
-// Responsive 625px
-@media (max-width: 625px){
-    .list_wrapper{
-        margin-right: -280px;
     }
 }

@@ -11,3 +11,14 @@ main.main_wrapper{
         align-items: center;
     }
 }
+
+
+// Responsive 1024px
+@media (max-width: 1024px){
+    .main_wrapper{
+        .container{
+            padding: 0 45px!important;
+            flex-direction: column;
+        }
+    }
+}

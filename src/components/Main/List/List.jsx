@@ -1,4 +1,5 @@
 import "./List.scss"
+import "../../../vendor/slickjs/slick.css"
 import { Movie } from "./Movie/Movie";
 
 

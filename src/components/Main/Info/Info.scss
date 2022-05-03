@@ -93,6 +93,14 @@
     }
 }
 
+
+// Responsive 1024px
+@media (max-width: 1024px){
+    .info_wrapper{
+        margin: 20px 0;
+        margin-right: auto;
+    }
+}
 // Responsive 625px
 @media (max-width: 625px){
     .info_wrapper{
