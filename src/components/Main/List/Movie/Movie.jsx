@@ -4,7 +4,7 @@ export function Movie(props){
     return (
         <div className="movie">
             <div className="play">
-                <img src="src\img\movie-play-icon.png" alt="Play this movie" />
+                <img src="public/assets/img/movie-play-icon.png" alt="Play this movie" />
             </div>
             <div className="info">
                 <small className="category">{props.category}</small>

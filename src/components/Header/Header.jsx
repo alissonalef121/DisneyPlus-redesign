@@ -5,7 +5,7 @@ export function Header(){
         <header className="header_wrapper">
             <div className="container">
                 <div className="logo">
-                    <img src="src/img/logo.png" alt="Disney+ Logo" />
+                    <img src="public/assets/img/logo.png" alt="Disney+ Logo" />
                 </div>
                 <div className="menu">
                     <div className="menu_icon">
