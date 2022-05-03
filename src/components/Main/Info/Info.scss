@@ -69,3 +69,35 @@
         }
     }
 }
+
+
+// Responsive 1024px
+@media (max-width: 1024px){
+    .info_wrapper{
+        .movie-logo{
+            img{
+                max-width: 230px;
+            }
+        }
+        .watch-now{
+            margin-top: 28px!important;
+            a{
+                padding: 15px 28px!important;
+                font-size: 17px!important;
+                span{
+                    margin-right: 10px!important;
+                    width: 15px;
+                }
+            }
+        }
+    }
+}
+
+// Responsive 625px
+@media (max-width: 625px){
+    .info_wrapper{
+        .movie-synopsis{
+            max-width: 320px;
+        }
+    }
+}
