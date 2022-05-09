@@ -8,7 +8,7 @@ export function Info(){
             <div className="top">
                 <div className="rating">
                     <div className="imdb">
-                        <img src="public/assets/img/imdb image.png" alt="IMDb logo" />
+                        <img src="assets/img/imdb image.png" alt="IMDb logo" />
                     </div>
                     <div className="rating_number">
                         <span>8.8</span>
@@ -21,7 +21,7 @@ export function Info(){
 
             {/* Movie Logo */}
             <div className="movie-logo">
-                <img src="public/assets/img/movie-logo.png" alt="Disney Luca movie logo" />
+                <img src="assets/img/movie-logo.png" alt="Disney Luca movie logo" />
             </div>
 
             {/* Movie  */}
