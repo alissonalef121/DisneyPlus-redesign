@@ -10,7 +10,7 @@ export function Header(){
                 <div className="menu">
                     <div className="menu_icon">
                         <span className="line"></span>
-                        <span className="line"></span>
+                        <span className="line"></span> 
                         <span className="line"></span>
                     </div>
                 </div>
