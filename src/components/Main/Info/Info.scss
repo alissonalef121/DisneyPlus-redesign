@@ -74,6 +74,7 @@
 // Responsive 1024px
 @media (max-width: 1024px){
     .info_wrapper{
+        margin: 20px auto 170px 0;
         .movie-logo{
             img{
                 max-width: 230px;
@@ -93,19 +94,38 @@
     }
 }
 
-
-// Responsive 1024px
-@media (max-width: 1024px){
-    .info_wrapper{
-        margin: 20px 0;
-        margin-right: auto;
-    }
-}
 // Responsive 625px
 @media (max-width: 625px){
     .info_wrapper{
+        .top{
+            .rating{
+                &_number{
+                    span{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .category{
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+        .movie-logo{
+            margin: 15px 0 12px 0;
+            img{
+                max-width: 150px;
+            }
+        }
         .movie-synopsis{
             max-width: 320px;
+            p{
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        .watch-now{
+            margin-top: 22px!important;
         }
     }
 }

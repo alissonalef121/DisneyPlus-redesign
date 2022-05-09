@@ -41,9 +41,26 @@ header.header_wrapper{
 // Responsive 1024px
 @media (max-width: 1024px){
     .header_wrapper{
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         .container{
-            padding: 20px 25px!important;
+            padding: 18px 25px!important;
+            .logo{
+                img{
+                    width: 80%;
+                }
+            }
+            .menu{
+                &_icon{
+                    height: 22px!important;
+                    span{
+                        width: 34px!important;
+                        height: 3px!important;
+                        &:last-child{
+                            width: 22px!important;
+                        }
+                    }
+                }
+            }
         }
     }
 }
