@@ -3,6 +3,8 @@ import { Main } from "./components/Main/Main"
 import { Background } from "./components/Background/Background"
 import { FigmaMirror } from "./components/FigmaMirror/FigmaMirror"
 import "./App.scss"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 function App(){
@@ -20,3 +22,5 @@ function App(){
 }
 
 export default App
+
+

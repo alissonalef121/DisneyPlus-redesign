@@ -1,8 +1,6 @@
 .background_wrapper{
     background-size: cover;
     display: block;
-    height: 100%;
-    min-height: 100vh;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -11,13 +9,12 @@
     top: 0;
     left: 0;
     img{
-        min-width: 100%;
-        min-height: 100%;
+        width: 100%;
     }
 
 
-    // Overlay
-    &::after{
+    // Overlay left
+    &::before{
         content: '';
         max-width: 1199px;
         width: 100%;
@@ -33,9 +30,16 @@
 // Responsive 1024px
 @media (max-width: 1024px){
     .background_wrapper{
-        height: auto;
-        img{
+        // Overlay bottom
+        &::after{
+            content: '';
             width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 200px;
+            background: linear-gradient(to bottom, transparent, #1F1F39 90%);
         }
     }
 }
+

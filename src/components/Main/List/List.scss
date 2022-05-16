@@ -40,15 +40,27 @@
 // Responsive 1024px
 @media (max-width: 1024px){
     .list_wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .header{
+            h1{
+                font-size: 22px;
+            }
+        }
         .movies-list{
             display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            overflow: visible;
+            overflow-y: auto;
+            overflow-x: scroll;
+            .movie:not(:last-child){
+                margin-right: 25px;
+            }
             .movie{
-                &:not(:last-child){
-                    margin-right: 25px;
-                }
+                margin-bottom: 0;
+                flex: none;
+            }
+            &::-webkit-scrollbar-track{
+                border-radius: 10px;
             }
         }
     }
